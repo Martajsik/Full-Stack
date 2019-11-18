@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <a href="index.html">Voltar para a home</a>
+    <hr>
+    <form action="" method="GET">
+        <div>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Digite seu email">
+        </div>
+        <div>
+            <input type="password" name="senha" placeholder="Digite sua senha">
+        </div>
+        <div>
+            <h3>Escolha seu sexo</h3>
+            <input id="masculino" type="radio" name="sexo">
+            <label for="masculino">Masculino</label>
+            <input id="feminino" type="radio" name="sexo">
+            <label for="feminino">Feminino</label>
+            <input id="outro" type="radio" name="sexo">
+            <label for="outro">Outro</label>
+        </div>
+        <div>
+            <h3>Como você nos conheceu?</h3>
+            <input type="checkbox" name="conheceu" id="jornal">
+            <label for="jornal">Jornal</label>
+            <input type="checkbox" name="conheceu" id="internet">
+            <label for="internet">Internet</label>
+        </div>
+        <div>
+            <label for="cidade">Cidade</label>
+            <select name="cidade" id="cidade">
+                <option disabled selected>Selecione</option>
+                <optgroup label="São Paulo">
+                    <option>São Paulo</option>
+                    <option>São José dos Campos</option>
+                    <option>São Caetano do Sul</option>
+                </optgroup>
+                <optgroup label="Ceará">
+                    <option>Cariri</option>
+                    <option>Fortaleza</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="recado">Deixe um recado</label>
+            <textarea name="recado" id="recado" maxlength="255"></textarea>
+            <small>*O máximo de caracteres é 255</small>
+        </div>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>

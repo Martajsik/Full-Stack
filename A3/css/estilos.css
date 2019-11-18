@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    color: #16161d;
+}
+
+p {
+    color: rgb(238, 20, 20);
+}
+
+img {
+    opacity: 0.7;
+}
+
+body {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: url('https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

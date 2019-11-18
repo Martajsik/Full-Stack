@@ -1,0 +1,35 @@
+form {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #16161d;
+    padding: 30px;
+    color: #fff;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea,
+button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #eee;
+} 
+
+button:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
